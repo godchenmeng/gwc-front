@@ -1,0 +1,119 @@
+/*!
+ *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */@font-face {
+	font-family: 'FontAwesome';
+	/*src: url('../fonts/fontawesome.eot?v=4.6.3');
+	src: url('../fonts/fontawesome.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../fonts/fontawesome.woff2?v=4.6.3') format('woff2'), url('../fonts/fontawesome.woff?v=4.6.3') format('woff'), url('../fonts/fontawesome.ttf?v=4.6.3') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');*/
+	 src:  url('../fonts/FontAwesome.eot?ubq1h8');
+    src:  url('../fonts/FontAwesome.eot?ubq1h8#iefix') format('embedded-opentype'),
+    url('../fonts/FontAwesome.ttf?ubq1h8') format('truetype'),
+    url('../fonts/FontAwesome.woff?ubq1h8') format('woff'),
+    url('../fonts/FontAwesome.svg?ubq1h8#FontAwesome') format('svg');
+    font-weight: normal;
+	font-style: normal
+}
+[class^="icon-"], [class*="icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'FontAwesome' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+ /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+.fa {
+	display: inline-block;
+	font: normal normal normal 18px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0px;
+	text-stroke-width: 0px;
+}
+.fa-home:before {
+  content: "\e900";
+}
+.path2:before {
+  content: "\e901";
+ }
+.path3:before {
+  content: "\e902";
+}
+.path4:before {
+  content: "\e903";
+}
+.path5:before {
+  content: "\e904";
+}
+.path6:before {
+  content: "\e905";
+}
+.path7:before {
+  content: "\e906";
+ }
+.path-8:before {
+  content: "\e907";
+}
+.path-9:before {
+  content: "\e908";
+}
+.path-10:before {
+  content: "\e909";
+}
+.path-11:before {
+  content: "\e90a";
+}
+.fa-chevron-down:before {
+  content: "\e90b";
+}
+.path-13:before {
+  content: "\e90c";
+}
+.path-14:before {
+  content: "\e90d";
+}
+.path-15:before {
+  content: "\e90e";
+}
+.path-16:before {
+  content: "\e90f";
+}
+.path-17:before {
+  content: "\e910";
+}
+.path-18:before {
+  content: "\e911";
+}
+.path-19:before {
+  content: "\e912";
+}
+.path-20:before {
+  content: "\e913";
+}
+.path-app:before {
+  content: "\e917";
+}
+.glyphicon-flash:before{ content: "\e913"!important;}
+.fa-chevron-left:before {
+  content: "\e915"; font-weight: 600
+}
+.fa-chevron-right:before{
+  content: "\e914";font-weight: 600
+}
+.icon-arrow-left:before {
+    content: "\e915"; font-weight: 600
+}
+.icon-arrow-right:before{
+    content: "\e914";font-weight: 600
+}
+.glyphicon-ok:before {
+ content: "\e916"; font-size: 16px; font-weight: bold;
+}

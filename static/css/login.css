@@ -1,0 +1,190 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;font-family:"Microsoft YaHei","arial";
+}
+html {
+	line-height: 1
+}
+ol, ul {
+	list-style: none
+}
+a img {
+	border: none
+}
+
+html {
+*overflow:auto
+}
+body, button, input, select, textarea {
+	font-family: PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+	font-size: 14px
+}
+a,a:link,a:active{ color:#6b6b6b}
+a:hover{ color:#e94e53}
+html {
+	width: 100%;
+	height: 100%
+}
+body {
+	width: 100%;
+	height: 100%;
+	font-family: "微软雅黑";
+	position: relative;
+	background: #e4f0fd
+}
+.login-top-box{ width:100%; background:#fff; height:72px;overflow: hidden;position: relative;}
+.login-logo {padding-top:18px; margin-left:20px;}
+.login-center-box{ background:url(../images/login/login-bg.jpg)  center #2c4697; /*background-size: 100% auto;*/width: 100%; height: 572px; position: relative;}
+.login-center {
+   width: 1080px;
+	height:500px; margin:0 auto;
+}
+
+.login-center .notice {
+	float: left;
+	width: 659px;
+	height: 300px;margin-left: -100px;
+}
+
+.login-center .login-input {
+	float:right; background:rgba(255,255,255,1);
+	width: 372px;
+	height:395px; border-radius:10px; margin-top:90px;
+}
+.login-center .login-input input{background:transparent; }
+.login-center .login-input .login-label {
+	margin-top:15px;
+	font-size: 20px;
+	color: #0060c0;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 15px
+}
+.login-center .login-input .login-mechanism {
+	margin-top:10px;
+    font-size: 15px;
+    color: #6A6B6D;
+    height: 35px; text-align: center;/*padding-left: 45px;*/
+}
+.login-center .login-input .login-mechanism img{ height:100%;vertical-align: middle; margin-right:1px;}
+.login-center .login-input .username , .login-center .login-input .password {
+	margin-left: 40px;
+	width: 300px;
+	height: 45px;
+	background-color: #f0fafe; border:1px solid #c5c5c5; border-radius:25px;
+	margin-top:6px;
+	margin-bottom: 15px
+}
+ .login-center .login-input .username .username-icon {
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-top: 8px;
+	margin-left: 18px;
+	margin-right: 15px;
+	background: url(../images/login/login_user.png) no-repeat; background-size:cover;
+}
+.login-center .login-input .username input[type=text] {
+	float: left;
+	border: 0 transparent;
+	height: 20px;
+	margin-top: 12px;
+	width: 190px;
+	font-size: 14px;
+	outline: none
+}
+.login-center .login-input .username input[type=text]:focus {
+	border: 0 transparent
+}
+.login-center .login-input .username input[type=text].focus {
+	border: 0 transparent
+}
+
+ .login-center .login-input .password .password-icon {
+	float: left;
+	width: 24px;
+	height: 30px;
+	margin-top: 8px;
+	margin-left: 18px;
+	margin-right: 15px;
+	background: url(../images/login/login_lock.png) no-repeat; background-size:cover;
+}
+
+.login-center .login-input .password input[type=password] {
+	float: left;
+	border: 0 transparent;
+	height: 20px;
+	margin-top: 12px;
+	width: 190px;
+	font-size: 14px;
+	outline: none
+}
+.login-center .login-input .password input[type=password]:focus {
+	border: 0 transparent
+}
+ .login-center .login-input .password input[type=password].focus {
+	border: 0 transparent
+}
+ .login-center .login-input .login-btn {
+	margin:16px auto 0;
+	width: 264px;
+	height: 48px;
+	line-height: 48px; border-radius:25px;
+	color: #fff;
+	font-size: 22px;
+	background:#0093ee;
+	text-align: center;
+	cursor: pointer
+}
+.login-center .login-input .login-btn:hover {
+	background:#00daac
+}
+.login-center .login-input .usertext{
+	margin-left: 40px;
+	width: 276px;
+	height: 25px;
+	margin-top: 20px; padding:0 12px; 
+	}
+.login-center .login-input .usertext a{ color:#0093ee}
+.login-center .login-input .usertext a:hover{ color:#e94e53}
+.verification-box{margin-left: 40px;height: 45px;margin-top: 11px;
+	margin-bottom:15px}
+.verification-box .verification{
+	width:150px; float:left;
+	background-color: #f0fafe; border:1px solid #c5c5c5; border-radius:25px; height:inherit
+}
+.verification-box .verification .verification-icon {
+	float: left;
+	width: 22px;
+	height:28px;
+	margin-top: 10px;
+	margin-left: 18px;
+	margin-right: 15px;
+	background: url(../images/login/login-yanzheng.png) no-repeat center; background-size:cover;
+	}
+.verification-box .verification input[type=text]{
+	float: left;
+	border: 0 transparent;
+	height: 20px;
+	margin-top: 12px;
+	width: 80px;
+	font-size: 14px;
+	outline: none
+}
+.verification-box .number{
+	width:150px; float:left; line-height:45px;
+}
+
+.login-foot{ width:100%; height:70px; background: #e3edfc; text-align: center; color: #212c4d; line-height: 70px;}
+
+/*固定的悬浮窗*/
+.yb_conct{position:absolute;z-index:9999999;bottom:25px;left:-200px;cursor:pointer;transition:all .3s ease; text-align:right;}
+.yb_bar ul li{width:auto;height:53px;font:16px/53px 'Microsoft YaHei';color:#fff;text-indent:54px;margin-bottom:3px;border-radius:3px;transition:all .5s ease;overflow:hidden; padding-right: 9px;}
+.yb_bar .yb_ercode{background:#b6eafd; box-shadow: 0 1px 8px rgba(0,0,0,0.83)}
+.hd_qr{padding:0 0px 25px 15px;}
+.yb-title{display: inline-block;right: 55px;position: absolute; color: #0a76fc}
+.yb-icon{margin-top: 7px;}

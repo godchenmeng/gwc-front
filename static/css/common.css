@@ -1,0 +1,289 @@
+.tree-icon{ background: url(../images/32px.png) no-repeat; width: 18px; height: 18px; display: inline-block; margin: 4px 0px;}
+.tree-Check{ background-position: -169px -9px;}
+.tree-Check:hover{background-position: -169px -41px;}
+.tree-Check:active,.tree-active{background-position: -233px -9px;}
+.tree-org{background-position: -140px -98px;}
+.tree-dep{background-position: -140px -72px;}
+.tree-carGreen{background-position: -38px -98px;}
+.tree-carBule{background-position: -71px -98px;}
+.tree-carGray{background-position: -104px -98px;}
+.tree-track,.tree-track-mr:hover{background-position: -6px -98px;}
+.tree-track-mr{background-position: -6px -120px;}
+.tree-icon-add{ background: url(../images/tree-add.png) no-repeat; width: 18px; height: 18px; display: inline-block; margin: 4px 0px 4px 4px;}
+.tree-icon-minus{ background: url(../images/tree-minus.png) no-repeat; width: 18px; height: 18px; display: inline-block; margin: 4px 0px 4px 4px;}
+.tree-icon-empty{ background: url(../images/empty-ico.png) no-repeat; width: 18px; height: 18px; display: inline-block; margin: 4px 0px 4px 4px;}
+.tree-show{display:block}
+.tree-hide{display:none}
+
+
+.border_none{
+    border: 0;
+}
+
+.site_title span{
+    line-height:62px;
+}
+
+.nav-sm ul.nav.child_menu_show{
+    left: 100%;
+    position: absolute;
+    top: 0;
+    width: 160px;
+    z-index: 4000;
+    background: #2a58ad;
+    display:block;
+}
+
+.nav-sm ul.nav.child_menu_show li {
+    padding: 0 10px 0 26px;
+    background: url(../images/left-child-icon.png) no-repeat;
+    background-position: 12px -16px;
+}
+
+.nav-sm ul.nav.child_menu_show li a {
+    text-align: left!important;
+    color: rgba(255,255,255,.75);
+}
+
+.nav-sm ul.nav.child_menu_show li:hover{background:url(../images/left-child-icon.png) no-repeat 12px 15px rgba(132,157,204,0.25)}
+
+.nav-sm ul.nav.child_menu_show li a:hover{color: #fff}
+
+.nav-sm ul.nav.child_menu_show li a:active{color: red}
+
+.baidu-map{
+    width:100%;
+    height:100%;
+}
+
+.hidden{
+    display:none;
+}
+
+.visible{
+    display:block;
+}
+
+.module-menu li{
+    /*padding:5px 17px 8px 35px;*/
+}
+
+.list-group-item{
+    padding:0px;
+    white-space:nowrap;
+}
+
+.align-center{
+    text-align:center;
+}
+.trackpoint_in {
+    height: 8px;
+    width: 8px;
+    background-color: #2398ff;
+    border-radius: 4px;
+    margin: 3px;
+}
+
+.trackpointOverlay .trackpoint_in {
+    display: none;
+}
+
+.trackpointonOverlay .trackpoint_in {
+    display: block;
+}
+
+.trackpointOverlay,
+.trackpointonOverlay {
+    position: absolute;
+    z-index: 50;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 12px 12px;
+    border-radius: 8px;
+}
+
+.trackpointOverlay {
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+.trackpointonOverlay {
+    height: 14px;
+    width: 14px;
+    background-color: #fff;
+    border: 1px solid #2398ff;
+}
+.carInfoBox{
+	margin-bottom:15px;
+    height: 221px;
+    width: 313px;
+    background:url('../images/infobox.png');
+}
+
+.carInfoWindow{
+    width: 278px;
+    margin-left: 25px;
+}
+
+.carInfoHeader0, .carInfoHeader1, .carInfoHeader2{
+    height: 40px;
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 13px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 25px;
+    width: 225px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-size: 16px 14px;
+}
+
+.carInfoContent{
+    height: 110px;
+    width: 100%;
+    font-size: 12px;
+    -webkit-overflow-scrolling:touch;
+}
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-track {
+    /*-webkit-border-radius: 5px;*/
+    /*border-radius: 5px;*/
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #b4b4b4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6a6a6a;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.carInfoItem{
+    min-height: 30px;
+    width: 250px;
+    line-height: 30px;
+    float: left;
+}
+
+.infoItemTitle{
+    color: #333;
+    width: 55px;
+    height: 100%;
+    float: left;
+    text-align: left;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.infoItemContent{
+    color: #666;
+    float: right;
+    width: 195px;
+    height: 100%;
+}
+
+.runCarOverlay{
+    height: 41px;
+    width: 41px;
+    position: absolute;
+    z-index: 100;
+}
+.runCarImg{
+    height:34px;
+    width:41px;
+    position: relative;
+    margin: 0;
+}
+.speed-monitor{
+    position:relative;
+    float:left;
+}
+.map-control{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+}
+.tableOpen-Box{
+    position:relative;
+    float:left;
+}
+.right_col{
+    min-height: 884px;
+}
+
+.nomal_button{
+    background:#fff;
+    margin:0px;
+    padding:0px;
+}
+
+#fence_set_table tr{
+    cursor:pointer;
+}
+
+/*****1027车型图标*****/
+.tree-ccc-green{background-position: -5px -144px;}
+.tree-ccc-red{background-position: -45px -144px;}
+.tree-ccc-gray{background-position: -86px -144px;}
+.tree-capc-green{background-position: -5px -172px;}
+.tree-capc-red{background-position: -45px -172px;}
+.tree-capc-gray{background-position: -86px -172px;}
+.tree-comc-green{background-position: -5px -199px;}
+.tree-comc-red{background-position: -45px -199px;}
+.tree-comc-gray{background-position: -86px -199px;}
+.tree-gtlf-green{background-position: -5px -230px;}
+.tree-gtlf-red{background-position: -45px -230px;}
+.tree-gtlf-gray{background-position: -86px -230px;}
+.tree-hsc-green{background-position: -5px -260px;}
+.tree-hsc-red{background-position: -45px -260px;}
+.tree-hsc-gray{background-position: -86px -260px;}
+.tree-wsc-green{background-position: -5px -286px;}
+.tree-wsc-red{background-position: -45px -286px;}
+.tree-wsc-gray{background-position: -86px -286px;}
+.tree-rc-green{background-position: -5px -312px;}
+.tree-rc-red{background-position: -45px -312px;}
+.tree-rc-gray{background-position: -86px -312px;}
+.tree-sedan-green{background-position: -5px -340px;}
+.tree-sedan-red{background-position: -45px -340px;}
+.tree-sedan-gray{background-position: -86px -340px;}
+.tree-mvp-green{background-position: -5px -368px;}
+.tree-mvp-red{background-position: -45px -368px;}
+.tree-mvp-gray{background-position: -86px -368px;}
+.tree-bus-green{background-position: -5px -396px;}
+.tree-bus-red{background-position: -45px -396px;}
+.tree-bus-gray{background-position: -86px -396px;}
+.tree-smv-green{background-position: -127px -146px;}
+.tree-smv-red{background-position: -167px -146px;}
+.tree-smv-gray{background-position: -207px -146px;}
+.tree-truck-green{background-position: -127px -172px;}
+.tree-truck-red{background-position: -167px -172px;}
+.tree-truck-gray{background-position: -207px -172px;}
+.tree-mixer-green{background-position: -128px -198px;}
+.tree-mixer-red{background-position: -168px -198px;}
+.tree-mixer-gray{background-position: -208px -198px;}
+
+.openTree-menu{
+    position: absolute;
+    z-index: 999;
+    overflow: scroll;
+    background: rgb(255, 255, 255);
+    border: 1px solid #dddddd;
+    display: none;
+}

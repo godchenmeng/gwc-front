@@ -1,0 +1,43 @@
+/*index*/
+.newsBox{ width: 100%}
+.leftTop-car{width: 100%; height:185px; background: #fff; border-radius: 5px;}
+.blockBox{ width: 50%;float: left;}
+.padR18{padding-right: 18px;}
+.Statis-data{height:90px; border-bottom: 1px solid #E6E9ED; padding:5px 20px 12px;}
+.Statis-data:last-child{ border-bottom: 0px solid #E6E9ED;}
+.Sta-number{float:left; margin-left: 25px; text-align: center; width:45% }
+.iconBase{width:70px; height: 60px; display: inline-block;margin-top: 5px;margin-left: 18px; border-right: 1px dashed #E6E9ED;float: left;}
+.in-icon{background: url(../images/index_icon.png) no-repeat;}
+.inCar-icon{  background-position:-151px -129px;}
+.inCar1-icon{  background-position:-146px -76px;}
+.iconTitle{width:19px; height:19px; display: inline-block;margin-right: 5px; position: absolute;}
+.news-icon{background-position:-68px -78px; top: 1px; left: 0}
+.addcar-icon{background-position:-68px -48px; top: 2px; left: 0}
+.task-icon{background-position:-68px -16px; top:-1px; left: 0}
+.paadLr{ padding-left: 0px!important; padding-right: 0!important}
+.new-state{ display: inline-block; padding:4px 10px; border-radius: 22px; margin-left: 8px; font-size: 12px; color: #fff}
+.st-bule{ background: #5192fc}
+.st-green{background: #28c96d}
+.st-orange{background: #f89326}
+.st-red{background: #fa5a2f}
+.mar-b0{margin-bottom: 0px!important;}
+.byline .img{margin-right: 4px;vertical-align: middle;}
+.excerpt .img{margin-right:4px;margin-top: -4px;vertical-align: middle;}
+.fixed_height_280{ height: 280px;}
+.carAdd-list{width: 100%;}
+.carAdd-list li{width: 33.33%; float: left; height: 115px; border-right: 1px solid #e8ecef; border-bottom: 1px solid #e8ecef; text-align: center; padding-top: 18px; position: relative}
+.carAdd-list li:nth-child(3n+3){ border-right:0px solid #e8ecef;}
+.carAdd-list li:nth-child(1),.carAdd-list li:nth-child(2),.carAdd-list li:nth-child(3){ border-top:none}
+.carAdd-list li .active{width: 18px; height: 18px; display:block; position: absolute; right: 5px; top: 5px; background-position: -102px -60px; display: none }
+.carAdd-list li .active:focus,.carAdd-list li .active:hover,.carAdd-list li .active:active{background-position: -102px -87px;}
+.carAdd-list li:hover .active{display:block }
+.carAdd-list li:nth-child(4), .carAdd-list li:nth-child(5), .carAdd-list li:nth-child(6) {border-bottom: none;}
+
+.iconTask{width:25px; height:20px; display: inline-block;margin-right: 5px; position: absolute; left: 0}
+.tijiao-icon{background-position:-16px -28px;}
+.shenpi-icon{background-position:-16px -63px;}
+.diaodu-icon{background-position:-18px -93px;}
+.zhixing-icon{background-position:-16px -123px;}
+.graph-icon{background-position:-100px -17px;top:-1px; left: 0}
+.padding th, .padding td{padding: 8px 6px;}
+.font12{font-size: 12px;}

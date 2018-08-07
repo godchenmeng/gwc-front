@@ -1,0 +1,21 @@
+{
+  "name": "cars_fis",
+  "version": "1.0.0",
+  "description": "优行车联公车管理系统",
+  "main": "fis-conf.js",
+  "dependencies": {
+    "fis-parser-babel-5.x": "^1.4.0",
+    "fis3-postpackager-loader": "^2.1.3",
+    "fis3-hook-commonjs": "^0.1.25",
+    "fis3-hook-node_modules": "^2.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "startFis3": "fis3 server start -p80",
+    "listenFis3": "fis3 release -w",
+    "stopFis3": "fis3 server stop",
+    "openFis3Server":"fis3 server open"
+  },
+  "author": "cm",
+  "license": "ISC"
+}
